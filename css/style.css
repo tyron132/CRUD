@@ -1,0 +1,139 @@
+html,
+body {
+	height: 100%;
+}
+
+body.my-login-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 5px 10px;
+}
+
+.footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+.form-icon {
+	text-align: center;
+	background-color: #5891ff;
+	border-radius: 50%;
+	font-size: 30px;
+	color: white;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 45px;
+	margin-bottom: 50px;
+	line-height: 100px;
+}
+
+h4 {
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
+
+.nav-link {
+	font-size: 14px;
+	display: inline;
+	padding: .5rem 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.bg-dark {
+	background-color: #343a40 !important;
+}
+
+.navbar-expand-sm {
+
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.form-control {
+	font-size: 14px;
+}
+
+div.btn1 {
+	font-size: 10px;
+
+}
+
+.alert {
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-bottom: 0px;
+	border: 1px solid transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-radius: .25rem;
+}
+
+div.test {
+	font-size: 10px;
+}
